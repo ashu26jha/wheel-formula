@@ -19,7 +19,6 @@ class Wheel < Formula
       system "./wheel.sh"
       system "./wheel"
       bin.install "wheel"
-      
       ENV.deparallelize
     end
   
